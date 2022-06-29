@@ -1,0 +1,13 @@
+iku,andare
+nomu,bere
+iu,dire
+yomu,leggere
+kaku,scrivere
+kau,comprare
+ganbaru,impegnarsi
+wakaru,capire
+yasumu,riposare
+au,incontrare
+asobu,giocare
+kiku,sentire
+kaeru,tornare

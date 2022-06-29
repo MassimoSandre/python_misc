@@ -1,0 +1,9 @@
+nin,persone
+hiki,animali piccoli
+tou,animali grandi
+wa,uccelli
+hon,cose bastoni-formi
+ko,piccoli oggetti
+satsu,cose rilegate
+mai,fogli
+dai,automobili biciclette macchinari

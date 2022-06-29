@@ -1,0 +1,17 @@
+taberu,mangiare
+miru,vedere
+neru,dormire
+okiru,svegliarsi
+kiru,indossare
+iru,esserci
+umareru,nascere
+oshieru,insegnare
+oboeru,ricordare
+kotaeru,rispondere
+wasureru,dimenticare
+tsukareru,stancarsi
+akeru,aprire
+shimeru,chiudere
+ireru,mettere dentro
+deru,uscire
+kariru,prendere in prestito

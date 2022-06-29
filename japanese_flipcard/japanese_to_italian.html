@@ -1,0 +1,1439 @@
+
+<html>
+    <head>
+        <style>
+            @import 'https://fonts.googleapis.com/css?family=Lily+Script+One';
+            body {
+            background: #eee;
+            font-family: 'Lily Script One';
+            }
+
+            .card {
+            
+            top: 50%;
+            left: 50%;
+            width: 350px;
+            height: 350px;
+            margin: 50px;
+            float: left;
+            perspective: 500px;
+            }
+
+            .content {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            box-shadow: 0 0 15px rgba(0,0,0,0.1);
+
+            transition: transform 1s;
+            transform-style: preserve-3d;
+            }
+
+            .card:hover .content {
+            transform: rotateY( 180deg ) ;
+            transition: transform 0.5s;
+            }
+
+            .front,
+            .back {
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            background: white;
+            line-height: 150px;
+            color: #03446A;
+            text-align: center;
+            font-size: 60px;
+            border-radius: 5px;
+            backface-visibility: hidden;
+            }
+
+            .back {
+            background: #03446A;
+            color: white;
+            transform: rotateY( 180deg );
+            }
+        </style>
+    </head>
+    <body>
+
+        <div class="card">
+            <div class="content">
+                <div class="front">みず
+                </div>
+                <div class="back">
+                acqua
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">ひこうき
+                </div>
+                <div class="back">
+                aereo
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">あい
+                </div>
+                <div class="back">
+                amore
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">いく
+                </div>
+                <div class="back">
+                andare
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">どうぶつ
+                </div>
+                <div class="back">
+                animale
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">きく
+                </div>
+                <div class="back">
+                ascoltare
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">あき
+                </div>
+                <div class="back">
+                autunno
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">べんごし
+                </div>
+                <div class="back">
+                avvocato
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">ぎんこう
+                </div>
+                <div class="back">
+                banca
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">ひげ
+                </div>
+                <div class="back">
+                barba
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">のむ
+                </div>
+                <div class="back">
+                bere
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">きっぷ
+                </div>
+                <div class="back">
+                biglietto
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">あおい
+                </div>
+                <div class="back">
+                blu
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">くち
+                </div>
+                <div class="back">
+                bocca
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">いい
+                </div>
+                <div class="back">
+                buono
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">いぬ
+                </div>
+                <div class="back">
+                cane
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">うたう
+                </div>
+                <div class="back">
+                cantare
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">うた
+                </div>
+                <div class="back">
+                canzone
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">ぶたにく
+                </div>
+                <div class="back">
+                carne di maiale
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">こい
+                </div>
+                <div class="back">
+                carpa
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">いえ
+                </div>
+                <div class="back">
+                casa
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">うま
+                </div>
+                <div class="back">
+                cavallo
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">きやべつ
+                </div>
+                <div class="back">
+                cavolo
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">かぎ
+                </div>
+                <div class="back">
+                chiavi
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">そら
+                </div>
+                <div class="back">
+                cielo
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">まち
+                </div>
+                <div class="back">
+                città
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">きゃく
+                </div>
+                <div class="back">
+                cliente
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">かい
+                </div>
+                <div class="back">
+                conchiglia
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">うさぎ
+                </div>
+                <div class="back">
+                coniglio
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">もの
+                </div>
+                <div class="back">
+                cosa (thing)
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">なに
+                </div>
+                <div class="back">
+                cosa?
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">いとこ
+                </div>
+                <div class="back">
+                cugino
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">こころ
+                </div>
+                <div class="back">
+                cuore
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">いるか
+                </div>
+                <div class="back">
+                delfino
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">のぞみ
+                </div>
+                <div class="back">
+                desiderio/speranza
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">いう
+                </div>
+                <div class="back">
+                dire
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">じしょ
+                </div>
+                <div class="back">
+                dizionario
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">あした
+                </div>
+                <div class="back">
+                domani
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">にちようび
+                </div>
+                <div class="back">
+                domenica
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">あさって
+                </div>
+                <div class="back">
+                dopodomani
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">りゅう
+                </div>
+                <div class="back">
+                drago
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">やすい
+                </div>
+                <div class="back">
+                economico
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">まちがい
+                </div>
+                <div class="back">
+                errore
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">なつ
+                </div>
+                <div class="back">
+                estate
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">そと
+                </div>
+                <div class="back">
+                esterno
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">みんぞく
+                </div>
+                <div class="back">
+                etnia
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">かお
+                </div>
+                <div class="back">
+                faccia
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">まめ
+                </div>
+                <div class="back">
+                fagioli
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">まつり
+                </div>
+                <div class="back">
+                festival
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">ひも
+                </div>
+                <div class="back">
+                filo
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">はな
+                </div>
+                <div class="back">
+                fiore/naso
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">もり
+                </div>
+                <div class="back">
+                foresta
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">かたち
+                </div>
+                <div class="back">
+                forma
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">いちご
+                </div>
+                <div class="back">
+                fragola
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">きって
+                </div>
+                <div class="back">
+                francobollo
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">あに
+                </div>
+                <div class="back">
+                fratello maggiore
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">はなび
+                </div>
+                <div class="back">
+                fuochi d'artificio
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">にわとり
+                </div>
+                <div class="back">
+                gallina
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">ねこ
+                </div>
+                <div class="back">
+                gatto
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">にわ
+                </div>
+                <div class="back">
+                giardino
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">もくようび
+                </div>
+                <div class="back">
+                giovedì
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">へび
+                </div>
+                <div class="back">
+                hebi
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">きのう
+                </div>
+                <div class="back">
+                ieri
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">まず
+                </div>
+                <div class="back">
+                inizio
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">なか
+                </div>
+                <div class="back">
+                interno
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">ふゆ
+                </div>
+                <div class="back">
+                inverno
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">あそこ
+                </div>
+                <div class="back">
+                là
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">じゅぎょう
+                </div>
+                <div class="back">
+                lezione
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">ほん
+                </div>
+                <div class="back">
+                libro
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">けいご
+                </div>
+                <div class="back">
+                linguaggio onorifico
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">つき
+                </div>
+                <div class="back">
+                luna
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">げつようび
+                </div>
+                <div class="back">
+                lunedì
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">おおかみ
+                </div>
+                <div class="back">
+                lupo
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">ぶた
+                </div>
+                <div class="back">
+                maiale
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">みかん
+                </div>
+                <div class="back">
+                mandarino
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">うみ
+                </div>
+                <div class="back">
+                mare
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">かようび
+                </div>
+                <div class="back">
+                martedì
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">あさ
+                </div>
+                <div class="back">
+                mattino
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">なす
+                </div>
+                <div class="back">
+                melanzana
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">すいようび
+                </div>
+                <div class="back">
+                mercoledì
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">やま
+                </div>
+                <div class="back">
+                montagna
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">びじゅつかｎ
+                </div>
+                <div class="back">
+                museo
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">みせ
+                </div>
+                <div class="back">
+                negozio
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">ゆき
+                </div>
+                <div class="back">
+                neve
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">なまえ
+                </div>
+                <div class="back">
+                nome
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">ばんごう
+                </div>
+                <div class="back">
+                numero
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">め
+                </div>
+                <div class="back">
+                occhio
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">きょう
+                </div>
+                <div class="back">
+                oggi
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">かさ
+                </div>
+                <div class="back">
+                ombrello
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">みみ
+                </div>
+                <div class="back">
+                orecchio
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">とけい
+                </div>
+                <div class="back">
+                orologio
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">びょういん
+                </div>
+                <div class="back">
+                ospedale
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">ぬの
+                </div>
+                <div class="back">
+                panno
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">ひと
+                </div>
+                <div class="back">
+                persona
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">さかな
+                </div>
+                <div class="back">
+                pesce
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">あし
+                </div>
+                <div class="back">
+                piede
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">たこ
+                </div>
+                <div class="back">
+                polpo
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">ひる
+                </div>
+                <div class="back">
+                pomeriggio
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">はる
+                </div>
+                <div class="back">
+                primavera
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">けいこ
+                </div>
+                <div class="back">
+                prova
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">おすすめ
+                </div>
+                <div class="back">
+                raccomandazione
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">はなし
+                </div>
+                <div class="back">
+                racconto
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">あか
+                </div>
+                <div class="back">
+                rosso
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">どようび
+                </div>
+                <div class="back">
+                sabato
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">しお
+                </div>
+                <div class="back">
+                sale
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">つくえ
+                </div>
+                <div class="back">
+                scrivania
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">がっこう
+                </div>
+                <div class="back">
+                scuola
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">いす
+                </div>
+                <div class="back">
+                sedia
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">よる
+                </div>
+                <div class="back">
+                sera
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">ひらめ
+                </div>
+                <div class="back">
+                sogliola
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">おかね
+                </div>
+                <div class="back">
+                soldi
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">まゆげ
+                </div>
+                <div class="back">
+                sopracciglia
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">とげ
+                </div>
+                <div class="back">
+                spina
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">きせつ
+                </div>
+                <div class="back">
+                stagione
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">へや
+                </div>
+                <div class="back">
+                stanza
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">えき
+                </div>
+                <div class="back">
+                stazione
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">とうきょうえき
+                </div>
+                <div class="back">
+                stazione di tokyo
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">みち
+                </div>
+                <div class="back">
+                strada
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">がくせい
+                </div>
+                <div class="back">
+                studente
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">だいがくせい
+                </div>
+                <div class="back">
+                studente universitario
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">すし
+                </div>
+                <div class="back">
+                sushi
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">たいこ
+                </div>
+                <div class="back">
+                tamburo
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">テイブル
+                </div>
+                <div class="back">
+                tavolo
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">ちゃ
+                </div>
+                <div class="back">
+                tè
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">とら
+                </div>
+                <div class="back">
+                tigre
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">でんしゃ
+                </div>
+                <div class="back">
+                treno
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">ただし
+                </div>
+                <div class="back">
+                tuttavia
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">とり
+                </div>
+                <div class="back">
+                uccello
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">ゆうびんきょ
+                </div>
+                <div class="back">
+                ufficio postale
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">やすみ
+                </div>
+                <div class="back">
+                vacanze
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">なつやすみ
+                </div>
+                <div class="back">
+                vacanze estive
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">みる
+                </div>
+                <div class="back">
+                vedere
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">きんようび
+                </div>
+                <div class="back">
+                venerdì
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">やさい
+                </div>
+                <div class="back">
+                verdura
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">りょこう
+                </div>
+                <div class="back">
+                viaggio
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">かお
+                </div>
+                <div class="back">
+                viso
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">こえ
+                </div>
+                <div class="back">
+                voce
+                </div>
+            </div>
+        </div>
+    
+        <div class="card">
+            <div class="content">
+                <div class="front">きつね
+                </div>
+                <div class="back">
+                volpe
+                </div>
+            </div>
+        </div>
+    </body></head>

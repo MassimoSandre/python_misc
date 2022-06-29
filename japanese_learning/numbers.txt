@@ -1,0 +1,13 @@
+rei,0
+ichi/hitotsu,1
+ni/fotatsu,2
+san/mittsu,3
+shi/yottsu,4
+go/itsutsu,5
+roku/muttsu,6
+shichi/nanatsu,7
+hachi/yattsu,8
+kyuu/kokonotsu,9
+hyaku,100
+sen,1000
+man,10000
